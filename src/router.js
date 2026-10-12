@@ -7,5 +7,6 @@ export default createRouter({
   routes: [
     { path: '/', component: Home },
     { path: '/instagram', component: Instagram },
+    { path: '/insta', component: Instagram },
   ],
 })
