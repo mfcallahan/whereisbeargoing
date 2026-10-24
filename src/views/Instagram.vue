@@ -5,5 +5,4 @@ window.location.replace('https://www.instagram.com/goodbearboi/')
 </script>
 
 <template>
-  <p>Redirecting to Instagram&hellip;</p>
 </template>
