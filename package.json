@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp dist/index.html dist/404.html",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "qr": "node qr/generate-qr.js"
   },
   "dependencies": {
     "vue": "^3.5.43",
@@ -14,6 +15,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.10",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.4",
     "vite": "^8.3.4"
   }
 }
